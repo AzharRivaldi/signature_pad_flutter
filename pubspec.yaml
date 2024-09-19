@@ -1,0 +1,24 @@
+name: signature_pad_flutter
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  syncfusion_flutter_signaturepad: ^26.2.11
+  flex_color_picker: ^3.5.1
+  path_provider: ^2.1.4
+  gallery_saver: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
